@@ -23,9 +23,8 @@ function maskIt(component, event, mascara) {
 			x++;
 		}
 	}
-	component.value = ret;
+	component.value = ret.reverse();
 	addZero(component);
-	setFieldPosition(component);
 }
 
 function validaTeclado(component, evt, mascara) {
